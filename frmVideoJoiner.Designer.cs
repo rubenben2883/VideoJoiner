@@ -142,7 +142,8 @@
             this.Controls.Add(this.txtRutaVideos);
             this.Controls.Add(this.label1);
             this.Name = "frmVideoJoiner";
-            this.Text = "VideoJoiner*Une archivos de video GoPro en un Clic";
+            this.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Office2010Black;
+            this.Text = "VideoJoiner *Une archivos de video GoPro en un Clic";
             this.Load += new System.EventHandler(this.frmVideoJoiner_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
